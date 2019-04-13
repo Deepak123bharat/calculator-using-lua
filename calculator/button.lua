@@ -214,7 +214,7 @@ button.operator.equal = iup.button{expand="yes",title="=",
 button.math.sin = iup.button{expand="yes",title="sin",
     
     action = function()
-        button.var1.value=button.sin(GUI.var1.value)
+        button.var1.value=math.sin(button.var1.value)
     end
 }
     
@@ -255,7 +255,7 @@ button.math.sqrt = iup.button{expand="yes",title="sqrt",
 button.math.pi = iup.button{expand="yes",title="pi",
     
     action = function()
-        button.var1.value=math.pi(button..var1.value)
+        button.var1.value=math.pi
     end
 }
 -- to clear variable var1  
